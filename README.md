@@ -14,12 +14,12 @@ The following pre-processing steps were applied to the dataset:
 
 1. Filtering Reviews in English: Only reviews written in English were included in the analysis.
 2. Text Cleaning:
-- Removed stop words.
-- Lemmatized words to their root form.
-- Eliminated unnecessary punctuations.
+  - Removed stop words.
+  - Lemmatized words to their root form.
+  - Eliminated unnecessary punctuations.
 3. Label Creation:
-- Threshold Approach: Reviews with ratings > 3 were labeled as positive, while ratings < 3 were labeled as negative.
-- TextBlob Polarity Approach: Reviews with a polarity > 0 were labeled as positive, while reviews with polarity < 0 were labeled as negative.
+  - Threshold Approach: Reviews with ratings > 3 were labeled as positive, while ratings < 3 were labeled as negative.
+  - TextBlob Polarity Approach: Reviews with a polarity > 0 were labeled as positive, while reviews with polarity < 0 were labeled as negative.
 4. Under-sampling: The majority class was under-sampled to achieve better classification results.
 
 ## Classification Approach
