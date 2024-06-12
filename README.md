@@ -6,8 +6,8 @@ This project aims to perform sentiment analysis on music reviews using a dataset
 ## Dataset
 The dataset is sourced from Kaggle and contains the following columns:
 
-*Reviews: Text reviews of music.
-*Ratings: Numerical ratings associated with the reviews.
+- Reviews: Text reviews of music.
+- Ratings: Numerical ratings associated with the reviews.
 
 ## Pre-processing steps
 The following pre-processing steps were applied to the dataset:
